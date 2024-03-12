@@ -329,7 +329,17 @@ void assert_failed(uint8_t *file, uint32_t line)
         case 'W': return ".--";
         case 'X': return "-..-";
         case 'Y': return "-.--";
-        case 'Z': return "--.."
+        case 'Z': return "--..";
+        case '0': return "-----";
+        case '1': return ".----";
+        case '2': return "..---";
+        case '3': return "...--";
+        case '4': return "....-";
+        case '5': return ".....";
+        case '6': return "-....";
+        case '7': return "--...";
+        case '8': return "---..";
+        case '9': return "----.";
         default: return ""; // Caractère non supporté
     }
 }
